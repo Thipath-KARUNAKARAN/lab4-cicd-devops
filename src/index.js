@@ -15,8 +15,7 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(bodyParser.json())
 
-app.get('/', (req, res) => res.send('Hello World! Lab 4 CI/CD'))
-
+app.get('/', (req, res) => res.send('Hello World! Lab 4 CI/CD deploye par GitHub Actions'))
 app.use('/user', userRouter)
 
 // Documentation Swagger
